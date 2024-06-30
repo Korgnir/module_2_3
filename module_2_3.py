@@ -15,6 +15,7 @@ while a > b:
         my_list.remove(number)
     elif number in my_list:
         print('число относится к списку, но отрицательно')
+        b -= 1
         continue
     else:
         print('Число не отвечает условиям')
