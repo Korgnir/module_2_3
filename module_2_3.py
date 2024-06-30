@@ -14,7 +14,7 @@ while a > b:
     if number in my_list and number > 0: # - число относится к списку и положительно
         my_list.remove(number)
     elif number in my_list:
-        print('число относится к списку, но отрицательно')
+        print('число относится к списку, но не является положительным')
         b -= 1
         continue
     else:
